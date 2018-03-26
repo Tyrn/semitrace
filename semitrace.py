@@ -57,7 +57,9 @@ def consume_line(line):
         return False, line
     return False, line
 
+
 g_newline = ''
+
 
 def current_nl(f):
     global g_newline
@@ -70,9 +72,14 @@ def current_nl(f):
         return '\n'
     return g_newline
 
+
 def check_file(path):
+    global g_newline
+
     header = f'*** {str(path)}'
+    g_newline = ''
     out_line = ""
+
     with open(path, "r") as f_r:
         first_change = True
         for line in f_r.readlines():
