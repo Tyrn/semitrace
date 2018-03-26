@@ -1,0 +1,110 @@
+*.py[cod]
+
+# C extensions
+*.so
+
+# Packages
+*.egg
+*.egg-info
+dist
+build
+eggs
+parts
+bin/
+var
+include/
+sdist
+develop-eggs
+.installed.cfg
+lib/
+lib64/
+lib64
+__pycache__/
+share/
+Src/
+Inc/
+
+# Installer logs
+pip-log.txt
+
+# Unit test / coverage reports
+.coverage
+.tox
+nosetests.xml
+
+# Translations
+*.mo
+
+# Mr Developer
+.mr.developer.cfg
+.project
+.pydevproject
+
+#
+# django-oscar sample below
+#
+
+# Packaging
+*.pyc
+*.egg-info
+/dist/
+/build/
+*.spec
+*.cfg
+
+# Vagrant
+.vagrant
+
+# Temporary/OS files
+*.swp
+*.swo
+*.*~
+.~lock.*
+*.DS_Store
+
+# IDE files
+.ropeproject
+.project
+.pydevproject
+.settings
+.idea
+.eric5project
+.eric6project
+.spyderproject
+.spyproject
+*.e4p
+*.geany
+*.iml
+*.log
+
+# Docs
+/docs/build/*
+*.pdf
+*.npy
+*.json
+TODO
+
+# Test files
+.coverage
+.noseids
+coverage.xml
+violations.txt
+nosetests.xml
+/htmlcov/*
+/.tox/*
+
+# Example sites
+settings_local.py
+/sites/sandbox/*.sqlite
+/sites/sandbox/assets/
+/sites/sandbox/public/
+/sites/sandbox/whoosh_index/
+/sites/sandbox/logs/
+/sites/demo/*.sqlite
+/sites/demo/assets/
+/sites/demo/public/
+/sites/demo/whoosh_index/
+/sites/demo/logs/
+/sites/us/public/
+/sites/us/logs/
+sites/puppet/modules/
